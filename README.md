@@ -1,42 +1,44 @@
 # Task Manager App
 
-A modern Task Manager built with **React** and **Vite**, featuring task management, theming, and drag-and-drop functionality using `@dnd-kit/core`.
+A modern **Task Manager** built with **React** and **Vite**, featuring task management, theming, and drag-and-drop functionality using **@dnd-kit/core**.
+
+**Live Demo:** [https://neon-tarsier-08660f.netlify.app/](https://neon-tarsier-08660f.netlify.app/)
 
 ---
 
-## Features
+## 🚀 Features
 
-### 1. Basic Features
+### Basic Features
 
-- **Add Tasks**: Users can add new tasks.
-- **Mark Tasks as Completed**: Toggle tasks between pending and completed.
+- **Add Tasks**: Easily add new tasks.
+- **Mark as Completed**: Toggle tasks between pending and completed.
 - **Delete Tasks**: Remove tasks individually.
 - **Filter Tasks**: View All, Completed, or Pending tasks.
-- **Persist Tasks**: Tasks are saved in Local Storage to retain data across sessions.
+- **Persist Tasks**: Tasks are saved in **Local Storage** to retain data across sessions.
 
-### 2. React Challenges
+### React Challenges
 
-- **Custom Hooks**: `useLocalStorage` hook manages local storage operations efficiently.
+- **Custom Hooks**: `useLocalStorage` manages local storage operations efficiently.
 - **Context API**: Task data is managed via React Context, avoiding prop drilling.
-- **Performance Optimization**: `React.memo`, `useCallback`, and `useMemo` are used to optimize performance.
-- **Form Validation**: Prevent users from adding empty tasks.
+- **Performance Optimization**: Utilizes `React.memo`, `useCallback`, and `useMemo`.
+- **Form Validation**: Prevents users from adding empty tasks.
 
-### 3. CSS Challenges
+### CSS Challenges
 
 - **Theming**: Light/Dark mode toggle for better UX.
 - **Animations**: Smooth CSS transitions for adding and removing tasks.
-- **Responsive Design**: Mobile-first approach ensures usability across devices.
-- **Drag-and-Drop**: Tasks can be reordered via **@dnd-kit/core**.
+- **Responsive Design**: Mobile-first approach ensures usability on all devices.
+- **Drag-and-Drop**: Tasks can be reordered using **@dnd-kit/core** (replaced deprecated `react-beautiful-dnd`).
 
 ---
 
-## Installation
+## ⚡ Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/task-manager-app.git
 
-# Navigate into project directory
+# Navigate into the project folder
 cd task-manager-app
 
 # Install dependencies
